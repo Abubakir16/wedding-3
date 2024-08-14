@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #515151;
+  box-sizing: border-box;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.container {
+  max-width: 1790px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  margin-top: 200px;
+}
+.first {
+  margin-top: 0;
+}
+
+.first__inner {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  padding: 100px 120px 0 120px;
+
+  > img {
+    width: 100%;
+  }
+
+  > h1 {
+    font-size: 80px;
+    font-weight: 400;
+  }
+  > hr {
+    width: 446px;
+    border: 1px solid #5ca2e3;
+  }
+  .double {
+    font-weight: 300;
+  }
+
+  > div {
+    display: flex;
+    font-size: 60px;
+    margin-top: -30px;
+    font-style: italic;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    > span {
+      width: 1px;
+      background: #515151;
+      height: 48px;
+    }
+  }
+}
+
+.second__inner {
+  background: #e0edf9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 108px 0;
+
+  > img {
+    max-width: 722px;
+    height: 572px;
+    object-fit: cover;
+  }
+
+  > div {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    > h1 {
+      font-size: 60px;
+      font-style: italic;
+      font-weight: 300;
+      max-width: 516px;
+    }
+
+    > p {
+      font-size: 32px;
+      font-style: italic;
+      line-height: 40px;
+      font-weight: 400;
+      max-width: 573px;
+    }
+  }
+}
+.memories__inner {
+  .title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    > span {
+      width: 65%;
+      height: 4px;
+      background: #5ca2e3;
+    }
+    > h2 {
+      font-size: 80px;
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+
+  .images {
+    display: flex;
+    margin-top: 30px;
+    .img__2 {
+      transform: translate(-100px, 0);
+    }
+    .img__3 {
+      transform: translate(40%, -19%);
+    }
+    .img__5 {
+      transform: translate(47%, -56%);
+    }
+  }
+}
+
+.data__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > img {
+    width: 70%;
+  }
+}
+
+
+.address{
+    background: #BCD3E8;
+}
+.address__inner {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  > h1{
+
+  }
+}
